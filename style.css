@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+main {
+    padding-inline: 2rem;
+    padding-top: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(20, 20, 20);
+}
+
+a {
+    color: rgb(84, 118, 180);
+    text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+
+}
+
+h1 {
+  font-size: 50px;
+}
+
+html {
+  font-size: calc(16px + ((100vw - 320px) / 680));
+}
+
+.portrait-image {
+    box-shadow: 1px 1px 4px rgb(19, 17, 17);
+    position: relative;
+}
+.name {
+    position: absolute;
+    bottom: 2rem;
+    color: aliceblue;
+    font-size: 3.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+header {
+    padding: 2rem;
+}
+
+.about-text h1 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.about-card {
+    gap: 2rem;
+}
+
+.diagonal-background {
+    background: rgb(76, 133, 219);
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0, 100% 40%, 0 100%);
+} 
+
+
+.photo-container {
+  position: relative;
+}
+
+.icons {
+    justify-content: center;
+    gap: 1.4rem;
+    font-size: 34px;
+    margin-top: 1rem;
+}
+.photo-container h1 {
+  position: absolute;
+}
+
+/* img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+} */
+
+.about-me {
+  /* padding: 24px; */
+  margin-top: 50vw;
+}
+
+h1 {
+  text-align: center;
+}
