@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
   </head>
   <body>
     <header>
       <div class="diagonal-background"></div>
-      <div class="about-card flex flex-col">
-        <div class="portrait-image">
+      <div class="about-card">
+        <span class="portrait-image">
           <img src="images/profile-photo.webp" alt="bird portrait" />
           <div class="name">Connor Rewa</div>
-        </div>
-        <div class="about-text">
+        </span>
+        <span class="about-text">
           <h1>About me</h1>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -31,25 +32,107 @@
             sed quia non numquam eius modi tempora incidunt ut labore et dolore
             magnam aliquam quaerat voluptatem.
           </p>
-          <div class="icons flex">
-            <i class="devicon-github-original"></i>
-            <i class="devicon-linkedin-plain"></i>
-            <i class="devicon-twitter-original colored"></i>
-
-          </div>
+        </span>
+        <div class="icons flex">
+          <i class="devicon-github-original"></i>
+          <i class="devicon-linkedin-plain"></i>
+          <i class="devicon-twitter-original colored"></i>
         </div>
       </div>
     </header>
 
     <section class="my-work">
-        <h1>My work</h1>
-      <div class="cards">
+      <h1>My work</h1>
+      <div class="cards flex flex-col">
         <div class="card">
-          <img src="#" alt="placeholder" />
+          <img src="/images/project-screesnshot.jpeg" alt="placeholder" />
           <div class="card-description">
-            <div class="card-title">
+            <div class="card-title flex">
               <h3>Project Name</h3>
-              <div class="card-icons">icons here</div>
+              <div class="card-icons flex">
+                <i class="devicon-github-original"></i>
+                <img src="images/open-in-new.svg" alt="" />
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+              sint cillum sint consectetur cupidatat.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/project-screesnshot.jpeg" alt="placeholder" />
+          <div class="card-description">
+            <div class="card-title flex">
+              <h3>Project Name</h3>
+              <div class="card-icons flex">
+                <i class="devicon-github-original"></i>
+                <img src="images/open-in-new.svg" alt="" />
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+              sint cillum sint consectetur cupidatat.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/project-screesnshot.jpeg" alt="placeholder" />
+          <div class="card-description">
+            <div class="card-title flex">
+              <h3>Project Name</h3>
+              <div class="card-icons flex">
+                <i class="devicon-github-original"></i>
+                <img src="images/open-in-new.svg" alt="" />
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+              sint cillum sint consectetur cupidatat.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/project-screesnshot.jpeg" alt="placeholder" />
+          <div class="card-description">
+            <div class="card-title flex">
+              <h3>Project Name</h3>
+              <div class="card-icons flex">
+                <i class="devicon-github-original"></i>
+                <img src="images/open-in-new.svg" alt="" />
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+              sint cillum sint consectetur cupidatat.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/project-screesnshot.jpeg" alt="placeholder" />
+          <div class="card-description">
+            <div class="card-title flex">
+              <h3>Project Name</h3>
+              <div class="card-icons flex">
+                <i class="devicon-github-original"></i>
+                <img src="images/open-in-new.svg" alt="" />
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+              sint cillum sint consectetur cupidatat.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/project-screesnshot.jpeg" alt="placeholder" />
+          <div class="card-description">
+            <div class="card-title flex">
+              <h3>Project Name</h3>
+              <div class="card-icons flex">
+                <i class="devicon-github-original"></i>
+                <img src="images/open-in-new.svg" alt="" />
+              </div>
             </div>
             <p>
               Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
@@ -60,20 +143,33 @@
       </div>
     </section>
     <footer>
-      <div class="contact">
-        <h2>Contact me</h2>
-        <div class="contact-body">
-          <p>Please get in touch if you think we could work together!</p>
+      <div class="contact flex flex-col">
+        <div class="contact-text">
+          <h2>Contact me</h2>
+          <div class="contact-body flex flex-col">
+            <p>Please get in touch if you think we could work together!</p>
 
-          <div class="location-info">
-            <p>1234 Random Road</p>
-            <p>Random Town, California, 12345</p>
+            <div class="location-info">
+              <p>1234 Random Road</p>
+              <p>Random Town, California, 12345</p>
+            </div>
+
+            <div class="contact-info">
+              <p>555-555-5555</p>
+              <p>myfakeemail@gmail.com</p>
+            </div>
+
+            <div class="contact-icons flex">
+              <i class="devicon-twitter-original"></i>
+              <i class="devicon-linkedin-plain"></i>
+              <i class="devicon-github-original"></i>
+            </div>
           </div>
-
-          <div class="contact-icons">icons here</div>
+        </div>
+        <div class="contact-image">
+          <img class="footer-img" src="images/profile-photo.webp" alt="" />
         </div>
       </div>
-      <div class="icons"></div>
     </footer>
   </body>
 </html>
