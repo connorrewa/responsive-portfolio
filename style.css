@@ -4,6 +4,7 @@ img {
   display: block;
   max-width: 100%;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -218,7 +219,7 @@ h1 {
   }
 
   .portrait-image {
-    width: 20vw;
+    width: min(20vw, 300px);
     transform-origin: bottom right;
     float: left;
     transform: scale(140%);
@@ -279,9 +280,8 @@ h1 {
   .portrait-image {
     transform-origin: center right;
     float: left;
-     transform: scale(150%); 
+    transform: scale(130%);
   }
-
 
   .about-card {
     display: grid;
@@ -316,7 +316,7 @@ h1 {
     margin-top: 48px;
     text-align: center;
   }
-  
+
   .cards {
     margin-top: 48px;
     margin-inline: auto;
@@ -339,5 +339,4 @@ h1 {
     width: 500px;
     height: 300px;
   }
-
 }
