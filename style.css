@@ -11,6 +11,10 @@ a {
   cursor: pointer;
 }
 
+i {
+  color: black;
+}
+
 a:visited {
   color: inherit;
 }
